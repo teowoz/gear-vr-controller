@@ -1,0 +1,35 @@
+{
+  "name": "gear-vr-controller",
+  "version": "1.0.0",
+  "description": "A library to facilitate use of Gear VR Controller",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "/bin/true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teowoz/gear-vr-controller.git"
+  },
+  "keywords": [
+    "gear-vr",
+    "bluetooth"
+  ],
+  "author": "SuperFly.tv",
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/teowoz/gear-vr-controller/issues"
+  },
+  "homepage": "https://github.com/teowoz/gear-vr-controller#readme",
+  "devDependencies": {
+    "@types/events": "^3.0.0",
+    "@types/web-bluetooth": "0.0.5",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "events": "^3.1.0"
+  }
+}
